@@ -1,0 +1,243 @@
+proxies:
+- name: Apik 19Ags
+  type: trojan
+  server: auth.kno2fy.com
+  port: 443
+  password: tosin1121
+  udp: true
+  sni: id3.dklongtong.xyz
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: ws://auth.kno2fy.com/trojan
+    headers:
+      Host: id3.dklongtong.xyz
+- name: Atha
+  type: trojan
+  server: ocem.medallia.com
+  port: 443
+  password: 77023050-1012-11ed-8586-1577c1651679
+  udp: true
+  sni: id-atha.bypass.id
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: ws://ocem.medallia.com/howdy
+    headers:
+      Host: id-atha.bypass.id
+- name: Herza
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: dbd83100-1012-11ed-b34a-1577c1651679
+  udp: true
+  sni: id-herza.bypass.id
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-herza.bypass.id
+- name: Nusa
+  type: trojan
+  server: cdn.digicertcdn.com
+  port: 443
+  password: 70c82670-1013-11ed-808b-1577c1651679
+  udp: true
+  sni: id-nusa-jkt.bypass.id
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-nusa-jkt.bypass.id
+- name: Sanggoro
+  type: trojan
+  server: cacerts.digicert.com 
+  port: 443
+  password: e2971160-1013-11ed-9bf5-1577c1651679
+  udp: true
+  sni: id-sanggoro.bypass.id
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-sanggoro.bypass.id
+- name: Argon
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: 9f308fb0-1014-11ed-835d-1577c1651679
+  udp: true
+  sni: id-argontj.bypass.id
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-argontj.bypass.id
+- name: Game
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: f1a5ff20-1014-11ed-b1d8-1577c1651679
+  udp: true
+  sni: id-game.bypass.id
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-game.bypass.id
+- name: Biznet
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: d7014940-1015-11ed-a099-1577c1651679
+  udp: true
+  sni: id-biznet.bypass.id 
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-biznet.bypass.id
+- name: IKD
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: 3b21f2f0-101f-11ed-848a-1577c1651679
+  udp: true
+  sni: d-ikd.bypass.id 
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: d-ikd.bypass.id
+- name: CTN
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: 5c0ff640-101f-11ed-bdb4-1577c1651679
+  udp: true
+  sni: id-ctn.bypass.id 
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-ctn.bypass.id
+- name: Uninet
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: 7b60eaa0-101f-11ed-8e93-1577c1651679
+  udp: true
+  sni: id-uninet.bypass.id 
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: id-uninet.bypass.id
+- name: SG-Contabo
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: 3ff62530-1017-11ed-8808-1577c1651679
+  udp: true
+  sni: trojan-contabo1.bypass.id 
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: trojan-contabo1.bypass.id
+- name: SG-OVH
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: eef43b90-101f-11ed-8cd5-1577c1651679
+  udp: true
+  sni: sg-ovh.bypass.id 
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: sg-ovh.bypass.id
+- name: SG-HE
+  type: trojan
+  server: cacerts.digicert.com
+  port: 443
+  password: 45118f10-1020-11ed-be54-1577c1651679
+  udp: true
+  sni: sg-trojan.serverip.xyz 
+  skip-cert-verify: true
+  alpn:
+   - http/1.1
+  network: ws
+  ws-opts:
+    path: "/howdy"
+    headers:
+      Host: sg-trojan.serverip.xyz
+- name: Atha x Biznet
+  type: vmess
+  server: cacerts.digicert.com
+  port: 443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id-v2ray.bypass.id
+  network: ws
+  ws-opts:
+    path: /fastssh/pre_829158001/Keropy27/
+    headers:
+      Host: id-v2ray.bypass.id
+- name: VUninet
+  type: vmess
+  server: cacerts.digicert.com
+  port: 443
+  uuid: 8e86b10d-2230-4411-9314-33bd40d0c97d
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: id-uninet3.bypass.id
+  network: ws
+  ws-opts:
+    path: /fastssh/pre_829158001/Keropy27/
+    headers:
+      Host: id-uninet3.bypass.id
